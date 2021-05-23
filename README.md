@@ -28,6 +28,9 @@ Please ignore.
 * [Crossroads MC](https://www.curseforge.com/minecraft/mc-mods/crossroads-mc/)
     * ProjectID: 250231
     * fileID: 3246384
+    * **Requires:** [Essentials](https://www.curseforge.com/minecraft/mc-mods/essentials)
+      * ProjectID: 293752
+      * fileID: 3319470
 * [Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks)
     * ProjectID: 422301
     * fileID: 3294628
@@ -84,6 +87,11 @@ Append one line before end of file.
       "required": true
     },
     {
+      "projectID": 293752,
+      "fileID": 3319470,
+      "required": true
+    },
+    {
       "projectID": 422301,
       "fileID": 3294628,
       "required": true
@@ -102,7 +110,8 @@ Append one line before end of file.
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/effortless-building">Effortless Building (by Requioss)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/neoelfeos-medieval-pub-decoration">Nef's Medieval decoration (by neoelfe0)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/subterranean-wilderness">Subterranean Wilderness (by Melonslise)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/crossroads-mc/">Crossroads MC (by Technomancer_isTaken)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/crossroads-mc">Crossroads MC (by Technomancer_isTaken)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/essentials">Essentials (by Technomancer_isTaken)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks">Sophisticated Backpacks (by P3pp3rF1y)</a></li>
 </ul>
 
