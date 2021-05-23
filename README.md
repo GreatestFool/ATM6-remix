@@ -107,3 +107,12 @@ Append one line before end of file.
 </ul>
 
 ```
+
+### mods
+
+### jei-client.toml
+
+```toml
+	#Display search bar in the center
+	CenterSearch = true
+```
