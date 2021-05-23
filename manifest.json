@@ -10,9 +10,9 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "All the Mods 6",
+  "name": "All the Mods 6 : REMIX",
   "version": "1.6.4",
-  "author": "ATMTeam",
+  "author": "ATMTeam : GreatestFool",
   "files": [
     {
       "projectID": 358557,
@@ -1447,6 +1447,46 @@
     {
       "projectID": 421104,
       "fileID": 3246266,
+      "required": true
+    },
+    {
+      "projectID": 250498,
+      "fileID": 3271048,
+      "required": true
+    },
+    {
+      "projectID": 426558,
+      "fileID": 3308459,
+      "required": true
+    },
+    {
+      "projectID": 300297,
+      "fileID": 3308560,
+      "required": true
+    },
+    {
+      "projectID": 302113,
+      "fileID": 3316956,
+      "required": true
+    },
+    {
+      "projectID": 444384,
+      "fileID": 3296205,
+      "required": true
+    },
+    {
+      "projectID": 413426,
+      "fileID": 3299430,
+      "required": true
+    },
+    {
+      "projectID": 250231,
+      "fileID": 3246384,
+      "required": true
+    },
+    {
+      "projectID": 422301,
+      "fileID": 3294628,
       "required": true
     }
   ],
