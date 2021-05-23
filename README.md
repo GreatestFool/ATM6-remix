@@ -125,3 +125,22 @@ Append one line before end of file.
 	#Display search bar in the center
 	CenterSearch = true
 ```
+
+### alexsmobs.toml
+
+```toml
+	#Whether mimicream can be used to duplicate items.
+	mimicreamRepair = false
+```
+
+### crossroads-server.toml
+
+```toml
+[Ores]
+	#Generate Copper Ore?
+	copper = false
+	#Generate Tin Ore?
+	tin = false
+	#Generate Ruby Ore?
+	ruby = false
+```
