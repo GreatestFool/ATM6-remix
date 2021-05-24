@@ -80,7 +80,6 @@ Please ignore.
   * Disable Industrial Foregoing's
     * Enchantment Extractor
     * Enchantment Applicator
-    * Enchantment Sorter
     * Enchantment Factory
   * Fix Reliquary's Lilypad of Fertility recipe.
     * NOTE This currently has an [open issue here](https://github.com/AllTheMods/ATM-6/issues/1691).
