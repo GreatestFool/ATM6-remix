@@ -1,9 +1,0 @@
-{
-    WorldGen: {
-        /* 
-         * Default: true
-         */
-        EnableYelloriteGeneration: false,
-    },
-
-}
