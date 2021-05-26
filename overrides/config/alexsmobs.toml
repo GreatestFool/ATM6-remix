@@ -29,9 +29,9 @@
 	#Range: 0 ~ 256
 	blobfishSpawnHeight = 38
 	#Whether mimicubes spawns should be restricted solely to the end city structure or to whatever biome is specified in their respective biome config.
-	mimicubeSpawnInEndCity = true
+	mimicubeSpawnInEndCity = false
 	#Whether mimicream can be used to duplicate items.
-	mimicreamRepair = true
+	mimicreamRepair = false
 	#Blacklist for items that mimicream cannot make a copy of. Ex: "minecraft:stone_sword", "alexsmobs:blood_sprayer"
 	mimicreamBlacklist = ["alexsmobs:blood_sprayer"]
 	#Whether wild raccoons steal food from chests.
@@ -231,5 +231,4 @@
 		crowSpawnWeight = 10
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
-		crowSpawnRolls = 0
-
+		crowSpawnRolls = 0
