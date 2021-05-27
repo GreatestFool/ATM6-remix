@@ -102,11 +102,6 @@ Please ignore.
     "author": "ATMTeam : GreatestFool",
   ```
 
-</details>
-
-<details>
-  <summary>manifest.json</summary>
-
   Append one line before end of file.
 
   ```json
