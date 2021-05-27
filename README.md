@@ -83,6 +83,11 @@ Please ignore.
     * Enchantment Factory
   * Fix Reliquary's Lilypad of Fertility recipe.
     * NOTE This currently has an [open issue here](https://github.com/AllTheMods/ATM-6/issues/1691).
+  * ftbchunks-server
+    * #Disables all land protection. Useful for private servers where everyone is trusted and claims are only used for forceloading.
+    disable_protection = true
+  * Disable: environmental tech
+    * Lots of errors in the client about this and valkerylib (required lib)
 
 </details>
 
