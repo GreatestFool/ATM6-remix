@@ -1,3 +1,5 @@
+# Patch-compiler
+# The patch-compiler is to create new releases for a remix-modpack
 # General layout idea:
 # The ATM6 modpack itself is in a folder called 'modpack'
 # The patches is in 'remix-patch'
@@ -10,25 +12,24 @@
 # Once copied and patched, update pack data and then package to a .zip file and place in '.exports'
 # Once exported, delete '.processing'
 
-# Something to consider:
-# Modpacks don't seem to recognize each other and merge when trying to add a new version through .zips
-# Perhaps build this patch-compiler as a script to be placed in the modpack folder and then run,
-# during which, it'll grab the modfiles for the custom pack and such?
-# Might be more useful to simply make a separate script like remix-updater or something that only does that.
-
 import shutil
 import zipfile
 import os
 
-# If '.processing' does not exist, it creates the folder
-# If '.processing' exists, it deletes the folder... I don't remember why I added that last part
+# Create base import and export folders
+if not os.path.exists('.exports'):
+    os.makedirs('.exports')
+if not os.path.exists('.imports'):
+    os.makedirs('.imports')
+
+# Create temporary folder for processing new release data.
 if not os.path.exists('.processing'):
     os.makedirs('.processing')
-else:
+else: # I don't why I added this, but I remember it being for a reason and I'm afraid to remove it, so I'll just leave it...
     shutil.rmtree('.processing')
 
 # Extract modpack zip file to '.processing'
-# TODO currently hardcoded, fix later
+# TODO currently hardcoded, fix later by making it grab whichever is placed in imports
 with zipfile.ZipFile('.imports/All+the+Mods+6-1.6.4.zip', 'r') as zip_ref:
     zip_ref.extractall('.processing/')
 
@@ -39,8 +40,9 @@ shutil.copytree('.remix-patch/config', '.processing/overrides/config', symlinks=
 # TODO Modify manifest.json and modlist.toml
 
 # Package '.processing' into a zip file
-# TODO Make the export name variable
+# TODO Make the export name variable and return import name with some additions like a version counter
+# e.g. a var for the import name, + -remix- + var for version counter or something
 shutil.make_archive('.exports/test', 'zip', '.processing')
 
-# Deletes '.processing'
+# Delete '.processing'
 shutil.rmtree('.processing')
