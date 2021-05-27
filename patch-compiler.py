@@ -10,6 +10,12 @@
 # Once copied and patched, update pack data and then package to a .zip file and place in '.exports'
 # Once exported, delete '.processing'
 
+# Something to consider:
+# Modpacks don't seem to recognize each other and merge when trying to add a new version through .zips
+# Perhaps build this patch-compiler as a script to be placed in the modpack folder and then run,
+# during which, it'll grab the modfiles for the custom pack and such?
+# Might be more useful to simply make a separate script like remix-updater or something that only does that.
+
 import shutil
 import zipfile
 import os
