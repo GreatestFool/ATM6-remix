@@ -9,6 +9,8 @@
 # Copy over the unique configs to the modpack config folder
 # Either change the non-unique configs through code, or simply copy over and overwrite- that's probably easier
 # Download specified modfile from project page on curseforge and move to mods folder.
+# NOTE https://www.curseforge.com/minecraft/mc-mods/*/download/*/file
+# NOTE Replace the first "*" with the modname and the second "*" the fileID
 # Update manifest and modlist
 #
 # Perhaps split the updater into two files.
